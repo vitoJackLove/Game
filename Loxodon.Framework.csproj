@@ -1,0 +1,971 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{77130B65-9BA3-C3D6-585D-B8DC990BB649}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Loxodon.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_9;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;IDEBUG;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>H:\Unity2019.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>H:\Unity2019.4.9\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\AggregateException.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\AsyncResult.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\AsyncTask.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\Callbackable.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\CoroutineAwaiter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\CoroutineAwaiterExtensions.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\CoroutineTask.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\IAsyncResult.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\IAsyncTask.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\IAwaiter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\IProgressPromise.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\IProgressResult.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\IProgressTask.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\IPromise.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\ImmutableAsyncResult.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\ImmutableProgressResult.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\ProgressResult.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\ProgressTask.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\Synchronizable.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\TaskYieldInstruction.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Asynchronous\TaskYieldInstructionExtensions.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Attributes\EnumExtensions.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Attributes\RemarkAttribute.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\AbstractBinding.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\BehaviourBindingExtension.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Binders\IBinder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Binders\StandardBinder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Binding.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\BindingDescription.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\BindingException.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\BindingFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\BindingMode.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\BindingServiceBundle.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Builder\BindingBuilder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Builder\BindingBuilderBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Builder\BindingSet.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Builder\IBindingBuilder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Contexts\BindingContext.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Contexts\BindingContextLifecycle.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Contexts\IBindingContext.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Converters\AbstractConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Converters\ConverterRegistry.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Converters\GenericConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Converters\IConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Converters\IConverterRegistry.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Expressions\EvaluatingVisitor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Expressions\ExpressionExtensions.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Expressions\ExpressionVisitor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\IBinding.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\IBindingFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\IInvoker.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Parameters\ParameterWrapCommand.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Parameters\ParameterWrapConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Parameters\ParameterWrapDelegateInvoker.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Parameters\ParameterWrapProxyInvoker.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Parameters\ParameterWrapScriptInvoker.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Paths\ExpressionPathFinder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Paths\IExpressionPathFinder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Paths\IPathParser.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Paths\Path.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Paths\PathExpressionVisitor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Paths\PathParser.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Paths\PathToken.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Paths\TextPathParser.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Paths\TypeFinderUtils.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\BindingProxyBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\IBindingProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\IModifiable.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\INotifiable.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\IObtainable.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\IScriptInvoker.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\ProxyException.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\EmptySourceProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Expressions\DelegateExtensions.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Expressions\ExpressionSourceDescription.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Expressions\ExpressionSourceProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Expressions\ExpressionSourceProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Expressions\IExpressionSourceProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\ISourceProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\ISourceProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\ISourceProxyFactoryRegistry.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\ChainedObjectSourceProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\EventNodeProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\FieldNodeProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\INodeProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\INodeProxyFactoryRegister.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\InteractionNodeProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\ItemNodeProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\MethodNodeProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\ObjectSourceDescription.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\ObjectSourceProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\ObservableNodeProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\PropertyNodeProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Object\UniversalNodeProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\SourceDescription.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\SourceProxyBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\SourceProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Text\LiteralSourceDescription.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Text\LiteralSourceProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Text\LiteralSourceProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\Text\ObservableLiteralSourceProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Sources\TypedSourceProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\ITargetProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\ITargetProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\ITargetProxyFactoryRegister.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\TargetProxyBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\TargetProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UGUI\UnityEventExtentions.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UGUI\UnityEventProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UGUI\UnityFieldProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UGUI\UnityPropertyProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UGUI\UnityTargetProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UIElements\ClickableEventProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UIElements\ValueChangedEventProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UIElements\VisualElementFieldProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UIElements\VisualElementPropertyProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\UIElements\VisualElementProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\Universal\EventTargetProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\Universal\FieldTargetProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\Universal\InteractionTargetProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\Universal\MethodTargetProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\Universal\ObservableTargetProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\Universal\PropertyTargetProxy.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Proxy\Targets\Universal\UniversalTargetProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyEventInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyFieldInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyInvoker.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyItemInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyMemberInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyMethodInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyObject.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyPropertyInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyRegistry.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\IProxyType.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ParameterMismatchException.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ProxyEventInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ProxyFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ProxyFieldInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ProxyInvoker.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ProxyItemInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ProxyMethodInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ProxyPropertyInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ProxyType.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\ProxyTypeExtentions.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\StaticProxyMethodInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\StaticProxyPropertyInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Reflection\WeakProxyInvoker.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Registry\IKeyValueRegistry.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\Registry\KeyValueRegistry.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\TypeExtensions.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Binding\UnityProxyRegister.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Commands\CommandBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Commands\CompositeCommand.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Commands\IActiveAware.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Commands\ICommand.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Commands\RelayCommand.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Commands\SimpleCommand.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Configuration\AlreadyExistsException.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Configuration\CompositeConfiguration.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Configuration\ConfigurationBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Configuration\DefaultTypeConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Configuration\IConfiguration.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Configuration\ITypeConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Configuration\MemoryConfiguration.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Configuration\PropertiesConfiguration.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Configuration\SubsetConfiguration.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Contexts\ApplicationContext.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Contexts\Context.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Contexts\PlayerContext.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\AbstractExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\CoroutineExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\CoroutineResult.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\CoroutineScheduledExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\CountDownEvent.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\CountFinishedEvent.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\Executors.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\ICoroutineExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\ICoroutinePromise.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\IMainLoopExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\IScheduledExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\IThreadExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\InterceptableEnumerator.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\MainLoopExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\RejectedExecutionException.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\ThreadExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Execution\ThreadScheduledExecutor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\DialogNotification.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\IDialogService.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\IInteractionAction.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\IInteractionRequest.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\InteractionActionBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\InteractionEventArgs.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\InteractionRequest.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\Notification.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\ToastNotification.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Interactivity\VisibilityNotification.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\AbstractDocumentParser.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\AssetBundleDataProvider.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\ColorTypeConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\DefaultDataProvider.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\IDataProvider.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\IDocumentParser.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\ILocalization.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\ITypeConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\Locale.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\Localization.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\PrimitiveTypeConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\RectTypeConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\SubsetLocalization.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\AbstractLocalized.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\AllowedMembersAttribute.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\LocalizedAudioSourceInResources.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\LocalizedBindingDescription.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\LocalizedDataBinder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\LocalizedImageInResources.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\LocalizedRawImageInResources.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\LocalizedSpriteRendererInResources.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\LocalizedText.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\UI\LocalizedTextMesh.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\Unity\AssetBundleLocalizationSourceDataProvider.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\Unity\DataConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\Unity\DefaultLocalizationSourceDataProvider.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\Unity\LocalizationSource.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\Unity\LocalizationSourceAsset.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\Unity\LocalizationSourceBehaviour.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\V.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\VectorTypeConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\VersionTypeConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Localizations\XmlDocumentParser.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Messaging\IMessenger.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Messaging\ISubscription.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Messaging\MessageBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Messaging\Messenger.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Messaging\PropertyChangedMessage.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Messaging\Subject.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Net\Http\DownloadFileHandler.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Net\Http\FileDownloaderBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Net\Http\IFileDownloader.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Net\Http\UnityWebRequestFileDownloader.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Net\Progress.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Net\ProgressInfo.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ObjectPool\IObjectFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ObjectPool\IObjectPool.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ObjectPool\IPooledObject.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ObjectPool\ObjectPool.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ObjectPool\PooledObjectBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ObjectPool\UnityComponentFactoryBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ObjectPool\UnityGameObjectFactoryBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Observables\INotifyCollectionChanged.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Observables\IObservableProperty.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Observables\ModelBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Observables\NotifyCollectionChangedEventArgs.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Observables\ObservableDictionary.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Observables\ObservableList.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Observables\ObservableObject.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Observables\ObservableProperty.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\AbstractFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\BinaryFilePreferences.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\DefaultEncryptor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\DefaultSerializer.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\IEncryptor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\IFactory.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\ISerializer.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\ITypeEncoder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\PlayerPrefsPreferences.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\Preferences.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\TypeEncoder\JsonTypeEncoder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\TypeEncoder\PrimitiveTypeEncoder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Prefs\TypeEncoder\VersionTypeEncoder.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Security\Cryptography\AesCTRCryptoStream.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Security\Cryptography\AesCTRCryptograph.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Security\Cryptography\AesCTRSymmetricAlgorithm.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Security\Cryptography\IDecryptor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Security\Cryptography\IEncryptor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Security\Cryptography\IStreamDecryptor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Security\Cryptography\IStreamEncryptor.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Security\Cryptography\RijndaelCryptograph.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Services\AbstractServiceBundle.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Services\DuplicateRegisterServiceException.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Services\IServiceBundle.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Services\IServiceContainer.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Services\IServiceLocator.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Services\IServiceRegistry.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Services\ServiceContainer.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\TypeExtensions.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\FileUtil.Android.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\FileUtil.Compression.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\FileUtil.IonicZip.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\FileUtil.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\FilterEnumerator.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\StringSpliter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\TransformEnumerator.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\WeakAction.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\WeakBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\WeakFunc.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Utilities\WeakValueDictionary.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ViewModels\IViewModel.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ViewModels\UI\AlertDialogViewModel.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\ViewModels\ViewModelBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Animations\AlphaAnimation.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Animations\GenericUIAnimation.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Animations\IAnimation.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Animations\UIAnimation.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Attributes.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Bundle.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\GlobalSetting.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\GlobalWindowManager.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\GlobalWindowManagerBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IBundle.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IDialog.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IManageable.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\ITransition.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IUIView.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IUIViewGroup.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IView.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IViewGroup.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IWindow.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IWindowManager.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\IWindowView.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\InterationActions\DialogInteractionAction.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\InterationActions\LoadingInteractionAction.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\InterationActions\ToastInteractionAction.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Locators\DefaultUIViewLocator.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Locators\IUIViewLocator.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Locators\UIViewLocatorBase.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\NotFoundException.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Transition.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\UI\AlertDialog.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\UI\AlertDialogWindow.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\UI\DefaultDialogService.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\UI\Loading.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\UI\LoadingWindow.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\UI\Toast.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\UI\ToastView.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\UIView.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Variables\DataConverter.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Variables\Variable.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Variables\VariableArray.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\View.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\Window.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\WindowContainer.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\WindowManager.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\Views\WindowView.cs" />
+     <Compile Include="Assets\LoxodonFramework\Runtime\Framework\WeakDelegateExtensions.cs" />
+     <None Include="Assets\LoxodonFramework\Runtime\Framework\Loxodon.Framework.asmdef" />
+ <Reference Include="UnityEditor.UI">
+ <HintPath>H:/Jacklovezzzzzzzzzzz/UnityProject/Fantasy Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>H:/Jacklovezzzzzzzzzzz/UnityProject/Fantasy Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Loxodon.Log.csproj">
+      <Project>{B7CFFE00-5474-30D6-A1E7-4732C6D02671}</Project>
+      <Name>Loxodon.Log</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{F2AB7F6B-23BA-304A-259A-F1588C6D10FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loxodon.Framework", "Loxodon.Framework.csproj", "{77130B65-9BA3-C3D6-585D-B8DC990BB649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loxodon.Log", "Loxodon.Log.csproj", "{B7CFFE00-5474-30D6-A1E7-4732C6D02671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loxodon.Framework.Editor", "Loxodon.Framework.Editor.csproj", "{F30B6BA1-61A0-4314-F7E8-7482388F7FC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2AB7F6B-23BA-304A-259A-F1588C6D10FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AB7F6B-23BA-304A-259A-F1588C6D10FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AB7F6B-23BA-304A-259A-F1588C6D10FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AB7F6B-23BA-304A-259A-F1588C6D10FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77130B65-9BA3-C3D6-585D-B8DC990BB649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77130B65-9BA3-C3D6-585D-B8DC990BB649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77130B65-9BA3-C3D6-585D-B8DC990BB649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77130B65-9BA3-C3D6-585D-B8DC990BB649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CFFE00-5474-30D6-A1E7-4732C6D02671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CFFE00-5474-30D6-A1E7-4732C6D02671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CFFE00-5474-30D6-A1E7-4732C6D02671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CFFE00-5474-30D6-A1E7-4732C6D02671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30B6BA1-61A0-4314-F7E8-7482388F7FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30B6BA1-61A0-4314-F7E8-7482388F7FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30B6BA1-61A0-4314-F7E8-7482388F7FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30B6BA1-61A0-4314-F7E8-7482388F7FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

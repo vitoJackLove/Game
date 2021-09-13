@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ac0e221-470c-479b-8a91-16fed3634690" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://H:/Unity2019.4.9/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Observables/ModelBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/96/450a30dc/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Binding/BehaviourBindingExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/97/1102914e/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Commands/CommandBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://H:/Unity2019.4.9/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Animations/AlphaAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Animations/UIAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/4c/c9a8366d/ResourceRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/3a/fb76da60/Resources.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Locators/DefaultUIViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Constant/Constant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Interactivity/InteractionRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Locators/UIViewLocatorBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Locators/IUIViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Interactivity/InteractionEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/UI/Toast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/Pool/ReferencePool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/62/92f75c86/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/Debug/Debuger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/IManageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameFramework/Component/UIComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/UI/Loading.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameFramework/Component/ResourcesComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameFramework/Component/GameFrameworkComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/GlobalWindowManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameFramework/GameEnter/GameEnter.Component.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Bundle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/e3/5fdfc128/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/IWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/UIView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/IWindowManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/WindowManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/WindowView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/ITransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Script/TestLoginViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameFramework/GameEnter/GameEntryBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/IView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameFramework/GameEnter/GameEnter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Script/TestLoginWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/84/9b70c3d8/Task`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://H:/Unity2019.4.9/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/InputField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/WindowContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/IUIView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Window.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Editor/Localizations/Language.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Binding/Contexts/BindingContextLifecycle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/IBundle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Services/ServiceContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/ed/10957784/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Services/IServiceContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Binding/Builder/BindingBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Transition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Editor/Views/UIWindowEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Observables/ObservableProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Script/TestStartupViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/GlobalWindowManagerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Script/TestStartupWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://H:/Unity2019.4.9/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventTrigger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Contexts/PlayerContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Contexts/Context.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface/ILifeCity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Contexts/ApplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/e0/47819f90/WeakReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Commands/SimpleCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/ViewModels/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Localizations/Localization.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interface/ILifeCity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Component/BaseCompontent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Component/BaseComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EntityView/BaseEntityView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/BaseSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Entity/BaseEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tools/Debug/Debuger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tools/Pool/ReferencePool.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/GlobalWindowManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameFrameworkComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameEnter/GameEntryBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameEnter/GameEnter.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameFramework/GameFrameworkComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/IBundle.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameFramework/GameEnter/GameEnterInitComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Services/IServiceContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Loxodon Framework/2.0.0/Examples/Launcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameFramework/UIComponent/UIComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameFramework/UIComponent/ResourcesComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameFarmework.Resources/ResourcesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameFarmework.Resources/ObjectManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/AssetBundleSystem/AssetBundleBuildConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameFramework/GameEnter/GameEnter.Component.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Constant/Constant.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Loxodon Framework/2.0.0/Examples/Scripts/Views/UI/Logins/Views/LoginWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Loxodon Framework/2.0.0/Examples/Scripts/Views/UI/Logins/ViewModels/LoginViewModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Loxodon Framework/2.0.0/Examples/Scripts/Views/UI/Startup/ViewModels/StartupViewModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Loxodon Framework/2.0.0/Examples/Scripts/Views/UI/Startup/Views/StartupWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Observables/BaseModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Script/StartupViewModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Script/StartupWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameFramework/GameEnter/GameEnter.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Observables/ModelBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameFramework/Component/UIComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/WindowContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Window.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/UIView.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Binding/Builder/BindingBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Script/TestStartupWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Script/TestLoginWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameFramework/Component/ResourcesComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Script/TestStartupViewModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Samples/Script/TestLoginViewModel.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xswbuHmlIr0zXRJOGIF7OLByXt" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="18800">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="18800" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ac0e221-470c-479b-8a91-16fed3634690" name="Default Changelist" comment="" />
+      <created>1631157178430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631157178430</updated>
+      <workItem from="1631157180225" duration="6597000" />
+      <workItem from="1631244392638" duration="18691000" />
+      <workItem from="1631326790265" duration="14856000" />
+      <workItem from="1631499116864" duration="10429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Samples/Loxodon Framework/2.0.0/Examples/Scripts/Locator/ResourcesViewLocator.cs</url>
+          <line>186</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Samples/Loxodon Framework/2.0.0/Examples/Scripts/Locator/ResourcesViewLocator.cs" initialLine="186">
+            <startOffsets>
+              <option value="6680" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6713" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Locators/DefaultUIViewLocator.cs</url>
+          <line>185</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/LoxodonFramework/Runtime/Framework/Views/Locators/DefaultUIViewLocator.cs" initialLine="185">
+            <startOffsets>
+              <option value="6649" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6682" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Samples/Loxodon Framework/2.0.0/Examples/Scripts/Views/UI/Startup/ViewModels/StartupViewModel.cs</url>
+          <line>123</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Samples/Loxodon Framework/2.0.0/Examples/Scripts/Views/UI/Startup/ViewModels/StartupViewModel.cs" initialLine="125">
+            <startOffsets>
+              <option value="4198" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4229" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
