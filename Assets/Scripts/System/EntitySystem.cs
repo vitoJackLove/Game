@@ -14,10 +14,12 @@ public class EntitySystem : BaseSystem
 
     public override void OnStart(object obj = null)
     {
+        
     }
 
     public override void OnUpdate(float deltaTime)
     {
+        
     }
 
     public override void OnFixUpdate(float deltaTime)
