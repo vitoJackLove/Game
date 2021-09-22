@@ -1,0 +1,12 @@
+﻿using FixMath;
+using UnityEngine;
+
+public class ModeFunction
+{
+    private int attack;
+    
+    public F64 __TestFunction__()
+    {
+        return __Formula__;
+    }
+}

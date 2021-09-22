@@ -1,0 +1,7 @@
+﻿#	C	C	C	C	C	C	C	C	C	C	C	
+#	int	int	lfloat	string	array<string>	string	array<string>	string	array<int>	bool	bool	
+#	Id	Priority	TimingCooling	Timing	UnNecessaryConditionkeys	UnNecessaryConditionVariable	NecessaryConditionkeys	NecessaryConditionVariable	FunctionKeys	IsStartNewProccess	IsCallOtherBuff	
+#	IntentionId	计算优先级	timing的冷却时间	时机	不必要条件	不必要条件的变量	必要条件	必要条件的变量	执行的功能	是否开启新的流程	是否响应其它buff	
+	310101	10							310101	TRUE	FALSE	
+	310202	10		HitEntity			GreaterEqualIntCondition	[["bulletId","3102021"]]	310202	True	False	
+	310703	10							310703	TRUE	FALSE	

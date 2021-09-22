@@ -45,6 +45,6 @@ public class TestStartupWindow : Window
 
     private void OnLoginRequest(object sender, InteractionEventArgs args)
     {
-        GameEnter.UI.OpenWindow<TestLoginWindow>("Assets/UI/Logins/Login.prefab");
+        GameEnter.UI.OpenWindow<TestLoginWindow>(Constant.ResourcesPath.GetUiPrefab("Login"));
     }
 }

@@ -12,6 +12,9 @@ using UnityEngine;
 public partial class GameEnter : MonoBehaviour
 {
     private ApplicationContext context;
+
+    private BaseWorld world;
+    
     public void Start()
     {
         GlobalWindowManager windowManager = FindObjectOfType<GlobalWindowManager>();
@@ -32,10 +35,14 @@ public partial class GameEnter : MonoBehaviour
         InitGameFrameworkComponent();
 
         LoadGameStartWindow();
+        
+        world = new BaseWorld();
+        
+        world.InitWorld();
     }
 
     private void LoadGameStartWindow()
     {
-        UI.OpenWindow<TestStartupWindow>("Assets/UI/Startup/Startup.prefab");
+        UI.OpenWindow<TestStartupWindow>(Constant.ResourcesPath.GetUiPrefab("Startup"));
     }
 }

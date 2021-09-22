@@ -1,0 +1,15 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public static class ExcelGlobal
+{
+    /// <summary>
+    /// 初始加载配置文件列表
+    /// </summary>
+    public static readonly string[] DataTableNames = new string[]
+    {
+       __LOADEXCELPATH__
+    };
+}
+
+
