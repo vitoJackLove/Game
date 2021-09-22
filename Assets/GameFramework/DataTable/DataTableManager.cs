@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using GameFramework.Asynchronous;
 using Object = UnityEngine.Object;
 
 namespace GameFramework.DataTable
@@ -50,10 +49,8 @@ namespace GameFramework.DataTable
         /// <param name="loadType"></param>
         /// <param name="loadAsync">加载回调</param>
         /// <param name="userData"></param>
-        public async void LoadDataTable(string dataTableAssetName, LoadType loadType, IPromise loadAsync, object userData)
+        public async void LoadDataTable(string dataTableAssetName, LoadType loadType, GameFramework.Asynchronous.IPromise loadAsync, object userData)
         {
-            
-            
             if (m_ResourceManager == null)
             {
                 throw new GameFrameworkException("You must set resource manager first.");

@@ -89,6 +89,7 @@
             <e p="DataTableManager.cs" t="Include" />
             <e p="DataTableManager.DataTable.cs" t="Include" />
             <e p="DataTableManager.LoadDataTableInfo.cs" t="Include" />
+            <e p="DefaultDataTableHelper.cs" t="Include" />
             <e p="GameFrameworkSegment.cs" t="Include" />
             <e p="IDataRow.cs" t="Include" />
             <e p="IDataTable.cs" t="Include" />
@@ -110,6 +111,9 @@
             <e p="system" t="Include">
               <e p="BaseSystem.cs" t="Include" />
             </e>
+          </e>
+          <e p="GameCrtl" t="Include">
+            <e p="PreloadDataCtrl.cs" t="Include" />
           </e>
           <e p="GameEnter" t="Include">
             <e p="GameEnter.Component.cs" t="Include" />

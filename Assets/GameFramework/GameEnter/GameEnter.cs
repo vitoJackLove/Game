@@ -1,10 +1,11 @@
-﻿using System.Threading.Tasks;
+﻿using Game;
 using Loxodon.Framework.Binding;
 using Loxodon.Framework.Contexts;
 using Loxodon.Framework.Messaging;
 using Loxodon.Framework.Services;
 using Loxodon.Framework.Views;
 using UnityEngine;
+using Loxodon.Framework.Asynchronous;
 
 /// <summary>
 /// 游戏入口
@@ -41,8 +42,10 @@ public partial class GameEnter : MonoBehaviour
         world.InitWorld();
     }
 
-    private void LoadGameStartWindow()
+    private async void LoadGameStartWindow()
     {
+        await new PreloadDataCtrl().LoadData();
+        
         UI.OpenWindow<TestStartupWindow>(Constant.ResourcesPath.GetUiPrefab("Startup"));
     }
 }

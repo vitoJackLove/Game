@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using GameFramework.Asynchronous;
+using Loxodon.Framework.Asynchronous;
 using GameFramework.DataTable;
 using UnityEngine;
 

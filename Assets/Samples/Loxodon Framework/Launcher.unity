@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c098400c30518a49b2a9ee063423caf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DataTableHelperTypeName: UnityGameFramework.DataTable.DefaultDataTableHelper
+  m_DataTableHelperTypeName: GameFramework.DataTable.DefaultDataTableHelper
   m_CustomDataTableHelper: {fileID: 0}
 --- !u!1 &1259382207
 GameObject:

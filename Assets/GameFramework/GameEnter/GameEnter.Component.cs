@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using GameFramework;
 using UnityEngine;
 
 public partial class GameEnter
@@ -18,8 +19,14 @@ public partial class GameEnter
     public static ResourcesComponent Resources => _resources;
     
     private static ResourcesComponent _resources;
-    
-    
+
+    /// <summary>
+    /// 数据表
+    /// </summary>
+    private static DataTableComponent _dataTable;
+    public static DataTableComponent DataTable => _dataTable;
+
+
     /// <summary>
     /// 初始化游戏组件
     /// </summary>
@@ -30,5 +37,9 @@ public partial class GameEnter
         
         _resources = (ResourcesComponent)GameEntryBase.GetComponent<ResourcesComponent>();
         _resources.OnInit();
+
+        _dataTable = (DataTableComponent)GameEntryBase.GetComponent<DataTableComponent>();
+        _dataTable.OnInit();
+        
     }
 }

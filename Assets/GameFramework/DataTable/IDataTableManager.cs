@@ -1,6 +1,5 @@
 ﻿using System;
-using GameFramework.Asynchronous;
-
+using Loxodon.Framework.Asynchronous;
 namespace GameFramework.DataTable
 {
     public interface IDataTableManager

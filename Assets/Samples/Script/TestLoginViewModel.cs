@@ -1,4 +1,6 @@
-﻿using Loxodon.Framework.Commands;
+﻿using System.Data;
+using Game;
+using Loxodon.Framework.Commands;
 using Loxodon.Framework.Interactivity;
 using Loxodon.Framework.ViewModels;
 
@@ -31,6 +33,8 @@ public class TestLoginViewModel : ViewModelBase
 
     public void OnAffirmClick()
     {
+        /*DRBuffData data =  GameEnter.DataTable.GetDataRow<DRBuffData>(310101);
+        Debuger.Log(data.Text);*/
         _cancelRequest.Raise();
     }
     

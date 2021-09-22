@@ -22,12 +22,31 @@ public class ResourcesComponent : GameFrameworkComponent
     
     public async Task<T> LoadAssetAsync<T>(string assetName) where T : Object
     {
-        ResourceRequest request  = Resources.LoadAsync<T>(assetName);
+        /*ResourceRequest request  = Resources.LoadAsync<T>(assetName);
 
         await request;
         
-        return (T)request.asset;
+        return (T)request.asset;*/
+
+        await new WaitForSeconds(0.1f);
+        
+        return AssetDatabase.LoadAssetAtPath<T>(assetName);
     }
+    
+    /*
+    public async Task<T> LoadConfig<T>(string assetName) where T : Object
+    {
+        /*ResourceRequest request  = Resources.LoadAsync<T>(assetName);
+
+        await request;
+        
+        return (T)request.asset;#1#
+
+        await new WaitForSeconds(0.1f);
+        
+        return AssetDatabase.LoadAssetAtPath<Ass>(assetName);
+    }
+*/
 
     public override void OnShutDown()
     {

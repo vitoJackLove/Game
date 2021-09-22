@@ -104,7 +104,10 @@ public sealed class ReferenceCollection
                return null;
           }
 
-          t = (T)_references.Dequeue();
+          if (_references.Count> 0)
+          {
+               t = (T)_references.Dequeue();
+          }
 
           if ( t != null)
           {

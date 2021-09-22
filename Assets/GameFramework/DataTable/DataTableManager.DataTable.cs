@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Loxodon.Framework.Asynchronous;
 
 namespace GameFramework.DataTable
 {
@@ -456,6 +457,33 @@ namespace GameFramework.DataTable
                 {
                     m_MaxIdDataRow = dataRow;
                 }
+            }
+        }
+
+        public async void LoadDataTable(string dataTableAssetName, LoadType loadType, IPromise loadAsync, object userData)
+        {
+            if (m_ResourceManager == null)
+            {
+                throw new GameFrameworkException("You must set resource manager first.");
+            }
+
+            if (m_DataTableHelper == null)
+            {
+                throw new GameFrameworkException("You must set data table helper first.");
+            }
+
+            Object asset = await m_ResourceManager.LoadAssetAsync<UnityEngine.Object>(dataTableAssetName);
+            
+            loadAsync?.SetResult(asset);
+            
+            if (asset == null)
+            {
+                throw new GameFrameworkException($"加载数据失败:{dataTableAssetName}表格不存在!!!");
+            }
+
+            if (!m_DataTableHelper.LoadDataTable(asset, loadType, userData))
+            {
+                throw new GameFrameworkException(Utility.Text.Format("Load data table failure in helper, asset name '{0}'.", dataTableAssetName));
             }
         }
     }

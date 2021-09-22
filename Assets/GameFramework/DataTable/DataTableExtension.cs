@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using GameFramework.Asynchronous;
-using GameFramework.DataTable;
+using Loxodon.Framework.Asynchronous;
 using UnityEngine;
 
 namespace GameFramework
