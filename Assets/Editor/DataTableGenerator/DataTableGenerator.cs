@@ -255,7 +255,7 @@ namespace Game
 
             if (isExistPropertyData)
             {
-                stringBuilder.AppendFormat("                    propertiesDynamic = JsonUtility.FromJson<PropertiesDynamic>(binaryReader.ReadString());").AppendLine();
+                /*stringBuilder.AppendFormat("                    propertiesDynamic = JsonUtility.FromJson<PropertiesDynamic>(binaryReader.ReadString());").AppendLine();*/
             }
             
             stringBuilder

@@ -10,14 +10,11 @@
         <e p="ABResources" t="Include">
           <e p="Configs" t="Include">
             <e p="DataTableCodeTemplate.txt" t="Include" />
-            <e p="GameConfig.txt" t="Include" />
             <e p="LoadExcelDataPath.txt" t="Include" />
             <e p="ModeFunction.txt" t="Include" />
           </e>
           <e p="DataTables" t="Include">
-            <e p="BuffData.txt" t="Include" />
-            <e p="FunctionsData.txt" t="Include" />
-            <e p="IntentionsData.txt" t="Include" />
+            <e p="JacketData.txt" t="Include" />
           </e>
         </e>
         <e p="Editor" t="Include">
@@ -113,6 +110,7 @@
             </e>
           </e>
           <e p="GameCrtl" t="Include">
+            <e p="ExcelGlobal.cs" t="Include" />
             <e p="PreloadDataCtrl.cs" t="Include" />
           </e>
           <e p="GameEnter" t="Include">
@@ -639,10 +637,8 @@
           </e>
           <e p="Runtime" t="Include">
             <e p="DataTable" t="Include">
-              <e p="DRBuffData.cs" t="Include" />
               <e p="DREnumType.cs" t="Include" />
-              <e p="DRFunctionsData.cs" t="Include" />
-              <e p="DRIntentionsData.cs" t="Include" />
+              <e p="DRJacketData.cs" t="Include" />
             </e>
           </e>
           <e p="system" t="Include">

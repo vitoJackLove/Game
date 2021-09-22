@@ -33,8 +33,8 @@ public class TestLoginViewModel : ViewModelBase
 
     public void OnAffirmClick()
     {
-        /*DRBuffData data =  GameEnter.DataTable.GetDataRow<DRBuffData>(310101);
-        Debuger.Log(data.Text);*/
+        DRJacketData data =  GameEnter.DataTable.GetDataRow<DRJacketData>(10);
+        Debuger.Log(data.Doc);
         _cancelRequest.Raise();
     }
     

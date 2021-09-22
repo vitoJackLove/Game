@@ -81,6 +81,7 @@
      <Compile Include="Assets\GameFramework\ECS\Entity\BaseEntity.cs" />
      <Compile Include="Assets\GameFramework\ECS\EntityView\BaseEntityView.cs" />
      <Compile Include="Assets\GameFramework\ECS\System\BaseSystem.cs" />
+     <Compile Include="Assets\GameFramework\GameCrtl\ExcelGlobal.cs" />
      <Compile Include="Assets\GameFramework\GameCrtl\PreloadDataCtrl.cs" />
      <Compile Include="Assets\GameFramework\GameEnter\GameEnter.Component.cs" />
      <Compile Include="Assets\GameFramework\GameEnter\GameEnter.System.cs" />
@@ -104,10 +105,8 @@
      <Compile Include="Assets\Scripts\Message\CallBack.cs" />
      <Compile Include="Assets\Scripts\Message\EventCenter.cs" />
      <Compile Include="Assets\Scripts\Message\EventType.cs" />
-     <Compile Include="Assets\Scripts\Runtime\DataTable\DRBuffData.cs" />
      <Compile Include="Assets\Scripts\Runtime\DataTable\DREnumType.cs" />
-     <Compile Include="Assets\Scripts\Runtime\DataTable\DRFunctionsData.cs" />
-     <Compile Include="Assets\Scripts\Runtime\DataTable\DRIntentionsData.cs" />
+     <Compile Include="Assets\Scripts\Runtime\DataTable\DRJacketData.cs" />
      <Compile Include="Assets\Scripts\System\EntitySystem.cs" />
      <Compile Include="Assets\Scripts\Tools\BinarySerialization.cs" />
      <Compile Include="Assets\Scripts\Tools\ClassObjectPool.cs" />
@@ -189,14 +188,11 @@
      <Compile Include="Assets\SuperScrollView\Scripts\StaggeredGridView\LoopStaggeredGridViewItem.cs" />
      <Compile Include="Assets\SuperScrollView\Scripts\StaggeredGridView\StaggeredGridItemGroup.cs" />
      <Compile Include="Assets\SuperScrollView\Scripts\StaggeredGridView\StaggeredGridItemPool.cs" />
-     <None Include="Assets\ABResources\DataTables\IntentionsData.txt" />
      <None Include="Assets\ABResources\Configs\DataTableCodeTemplate.txt" />
-     <None Include="Assets\ABResources\DataTables\FunctionsData.txt" />
      <None Include="Assets\LoxodonFramework\Resources\Shaders\Loading.shader" />
      <None Include="Assets\LoxodonFramework\link.xml" />
-     <None Include="Assets\ABResources\Configs\GameConfig.txt" />
-     <None Include="Assets\ABResources\DataTables\BuffData.txt" />
      <None Include="Assets\SuperScrollView\Scripts\Version 2.4.0.txt" />
+     <None Include="Assets\ABResources\DataTables\JacketData.txt" />
      <None Include="Assets\ABResources\Configs\LoadExcelDataPath.txt" />
      <None Include="Assets\ABResources\Configs\ModeFunction.txt" />
  <Reference Include="Unity.Timeline.Editor">

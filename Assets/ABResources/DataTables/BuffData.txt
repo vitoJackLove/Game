@@ -1,7 +1,0 @@
-﻿#	C	C	C	C	C	C	C	C	C	C	C	C	C	C	
-#	int	string	bool	int	int	bool	array<string>	int	bool	BuffOverTypeEnum	float	bool	bool	string	
-#	Id	Text	IsOverlay	Intention	BehaviorTreeId	ChangeLayeResetTime	Tags	MaxLayer	IsTimingBuff	OverType	Time	IsShowLayer	IsRebornDelete	BuffIcon	
-#	配置Id	说明	是否无法覆盖	功能组	行为树ID	改变层数是否刷新存活时间	Buff标签	最大层数	是否是定时buff	Buff结束时减少一层还是全部消除	总时长 过时自动销毁	是否显示层数	是否重生时删除	buffUI图标	
-	310101	添加护盾值	FALSE	310101		FALSE		1	FALSE	All	99999	FALSE	FALSE		
-	310202	摧毁播放动画	FALSE	310202		FALSE		1	FALSE	All	2	FALSE	FALSE		
-	310703	减伤	FALSE	310703		FALSE		1	FALSE	All	9999	FALSE	FALSE		

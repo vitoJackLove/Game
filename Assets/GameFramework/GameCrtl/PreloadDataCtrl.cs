@@ -59,12 +59,10 @@ public class PreloadDataCtrl
         private void PreloadResources()
         {
             // Preload data tables
-            /*foreach (string dataTableName in ExcelGlobal.DataTableNames)
+            foreach (string dataTableName in ExcelGlobal.DataTableNames)
             {
                 LoadDataTable(dataTableName);
-            }*/
-            
-            LoadDataTable("BuffData");
+            }
             
             //LoadConfig("GameConfig");
         }

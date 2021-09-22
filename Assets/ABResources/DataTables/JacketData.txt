@@ -1,0 +1,12 @@
+﻿#	C	C	C	C	C	C	C	C	C	
+#	int	EquipTypeEnum	string	int	int	int	int	int	int	
+#	Id	EquipType	Doc	HPMin	HPMax	PhysicsDefenseMin	PhysicsDefenseMax	PropertyMin	PropertyMax	
+#	配置Id	装备类型	说明	气血最低值	气血最高值	物防最低值	物防最高值	属性最低值	属性最高值	
+	10	Jacket	上衣	100	300					
+	20	Jacket	上衣	101	301					
+	30	Jacket	上衣	102	302					
+	40	Jacket	上衣	103	303					
+	50	Jacket	上衣	104	304					
+	60	Jacket	上衣	105	305					
+	70	Jacket	上衣	106	306					
+	80	Jacket	上衣	107	307					

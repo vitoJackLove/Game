@@ -1,5 +1,4 @@
-﻿using Game;
-using Loxodon.Framework.Binding;
+﻿using Loxodon.Framework.Binding;
 using Loxodon.Framework.Contexts;
 using Loxodon.Framework.Messaging;
 using Loxodon.Framework.Services;

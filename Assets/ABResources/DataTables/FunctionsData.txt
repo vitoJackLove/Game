@@ -1,7 +1,0 @@
-﻿#	C	C	C	
-#	int	string	string	
-#	Id	FunctionName	FunctionVariable	
-#	函数Id	函数名字	变量	
-	310101	IncreaseDefenseFunction	["999"]	
-	310202	AddMarkToAttackerFunction	["attacker","defender","bulletId","310202","1","1","Monster310202","1"]	
-	310703	CutDownAttackFunction	["1","1","0","359"]	

@@ -10,12 +10,12 @@ namespace Game
     /// <summary>
     /// C。
     /// </summary>
-    public class DRIntentionsData : DataRowBase
+    public class DRJacketData : DataRowBase
     {
         private int m_Id = 0;
 
         /// <summary>
-        /// 获取IntentionId。
+        /// 获取配置Id。
         /// </summary>
         public override int Id
         {
@@ -26,90 +26,72 @@ namespace Game
         }
 
         /// <summary>
-        /// 获取计算优先级。
+        /// 获取装备类型。
         /// </summary>
-        public int Priority
+        public EquipTypeEnum EquipType
         {
             get;
             private set;
         }
 
         /// <summary>
-        /// 获取timing的冷却时间。
+        /// 获取说明。
         /// </summary>
-        public float TimingCooling
+        public string Doc
         {
             get;
             private set;
         }
 
         /// <summary>
-        /// 获取时机。
+        /// 获取气血最低值。
         /// </summary>
-        public string Timing
+        public int HPMin
         {
             get;
             private set;
         }
 
         /// <summary>
-        /// 获取不必要条件。
+        /// 获取气血最高值。
         /// </summary>
-        public List<string> UnNecessaryConditionkeys
+        public int HPMax
         {
             get;
             private set;
         }
 
         /// <summary>
-        /// 获取不必要条件的变量。
+        /// 获取物防最低值。
         /// </summary>
-        public string UnNecessaryConditionVariable
+        public int PhysicsDefenseMin
         {
             get;
             private set;
         }
 
         /// <summary>
-        /// 获取必要条件。
+        /// 获取物防最高值。
         /// </summary>
-        public List<string> NecessaryConditionkeys
+        public int PhysicsDefenseMax
         {
             get;
             private set;
         }
 
         /// <summary>
-        /// 获取必要条件的变量。
+        /// 获取属性最低值。
         /// </summary>
-        public string NecessaryConditionVariable
+        public int PropertyMin
         {
             get;
             private set;
         }
 
         /// <summary>
-        /// 获取执行的功能。
+        /// 获取属性最高值。
         /// </summary>
-        public List<int> FunctionKeys
-        {
-            get;
-            private set;
-        }
-
-        /// <summary>
-        /// 获取是否开启新的流程。
-        /// </summary>
-        public bool IsStartNewProccess
-        {
-            get;
-            private set;
-        }
-
-        /// <summary>
-        /// 获取是否响应其它buff。
-        /// </summary>
-        public bool IsCallOtherBuff
+        public int PropertyMax
         {
             get;
             private set;
@@ -127,16 +109,14 @@ namespace Game
             int index = 0;
             index++;
             m_Id = int.Parse(columnTexts[index++]);
-            Priority = int.Parse(columnTexts[index++]);
-            TimingCooling = float.Parse(columnTexts[index++]);
-            Timing = columnTexts[index++];
-            UnNecessaryConditionkeys = DataTableExtension.ParseListstring(columnTexts[index++]);
-            UnNecessaryConditionVariable = columnTexts[index++];
-            NecessaryConditionkeys = DataTableExtension.ParseListstring(columnTexts[index++]);
-            NecessaryConditionVariable = columnTexts[index++];
-            FunctionKeys = DataTableExtension.ParseListInt(columnTexts[index++]);
-            IsStartNewProccess = bool.Parse(columnTexts[index++]);
-            IsCallOtherBuff = bool.Parse(columnTexts[index++]);
+            EquipType = (EquipTypeEnum)System.Enum.Parse(typeof(EquipTypeEnum),columnTexts[index++]);
+            Doc = columnTexts[index++];
+            HPMin = int.Parse(columnTexts[index++]);
+            HPMax = int.Parse(columnTexts[index++]);
+            PhysicsDefenseMin = int.Parse(columnTexts[index++]);
+            PhysicsDefenseMax = int.Parse(columnTexts[index++]);
+            PropertyMin = int.Parse(columnTexts[index++]);
+            PropertyMax = int.Parse(columnTexts[index++]);
             index++;
 
             return true;
@@ -150,16 +130,12 @@ namespace Game
                 using (BinaryReader binaryReader = new BinaryReader(memoryStream, Encoding.UTF8))
                 {
                     m_Id = binaryReader.ReadInt32();
-                    Priority = binaryReader.ReadInt32();
-                    TimingCooling = binaryReader.ReadSingle();
-                    Timing = binaryReader.ReadString();
-                    UnNecessaryConditionkeys = DataTableExtension.ParseListstring(binaryReader.ReadString());
-                    UnNecessaryConditionVariable = binaryReader.ReadString();
-                    NecessaryConditionkeys = DataTableExtension.ParseListstring(binaryReader.ReadString());
-                    NecessaryConditionVariable = binaryReader.ReadString();
-                    FunctionKeys = DataTableExtension.ParseListInt(binaryReader.ReadString());
-                    IsStartNewProccess = binaryReader.ReadBoolean();
-                    IsCallOtherBuff = binaryReader.ReadBoolean();
+            EquipType = (EquipTypeEnum)System.Enum.Parse(typeof(EquipTypeEnum),binaryReader.ReadString());
+                    Doc = binaryReader.ReadString();
+                    HPMin = binaryReader.ReadInt32();
+                    HPMax = binaryReader.ReadInt32();
+                    PhysicsDefenseMin = binaryReader.ReadInt32();
+                    PhysicsDefenseMax = binaryReader.ReadInt32();
                 }
             }
 
