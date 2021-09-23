@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameFramework\BaseWorld\BaseWorld.cs" />
      <Compile Include="Assets\GameFramework\Component\DataTableComponent.cs" />
      <Compile Include="Assets\GameFramework\Component\GameFrameworkComponent.cs" />
      <Compile Include="Assets\GameFramework\Component\ResourcesComponent.cs" />
@@ -79,6 +80,8 @@
      <Compile Include="Assets\GameFramework\DataTable\LoadDataTableInfo.cs" />
      <Compile Include="Assets\GameFramework\ECS\Component\BaseComponent.cs" />
      <Compile Include="Assets\GameFramework\ECS\Entity\BaseEntity.cs" />
+     <Compile Include="Assets\GameFramework\ECS\Entity\CommandEntityData.cs" />
+     <Compile Include="Assets\GameFramework\ECS\Entity\EntityConfigData.cs" />
      <Compile Include="Assets\GameFramework\ECS\EntityView\BaseEntityView.cs" />
      <Compile Include="Assets\GameFramework\ECS\System\BaseSystem.cs" />
      <Compile Include="Assets\GameFramework\GameCrtl\ExcelGlobal.cs" />
@@ -88,6 +91,7 @@
      <Compile Include="Assets\GameFramework\GameEnter\GameEnter.cs" />
      <Compile Include="Assets\GameFramework\GameEnter\GameEntryBase.cs" />
      <Compile Include="Assets\GameFramework\GameFrameworkException.cs" />
+     <Compile Include="Assets\GameFramework\Interface\ILifeCity.cs" />
      <Compile Include="Assets\GameFramework\Utility\AssetUtility.cs" />
      <Compile Include="Assets\GameFramework\Utility\FileHelp.cs" />
      <Compile Include="Assets\GameFramework\Utility\Helper.cs" />
@@ -99,9 +103,13 @@
      <Compile Include="Assets\Samples\Script\TestLoginWindow.cs" />
      <Compile Include="Assets\Samples\Script\TestStartupViewModel.cs" />
      <Compile Include="Assets\Samples\Script\TestStartupWindow.cs" />
-     <Compile Include="Assets\Scripts\BaseWorld\BaseWorld.cs" />
+     <Compile Include="Assets\Scripts\Component\EntityViewComponent.cs" />
      <Compile Include="Assets\Scripts\Constant\Constant.cs" />
-     <Compile Include="Assets\Scripts\Interface\ILifeCity.cs" />
+     <Compile Include="Assets\Scripts\Entity\BossEntity.cs" />
+     <Compile Include="Assets\Scripts\Entity\HeroEntity.cs" />
+     <Compile Include="Assets\Scripts\Entity\MinionEntity.cs" />
+     <Compile Include="Assets\Scripts\Entity\MonsterEntity.cs" />
+     <Compile Include="Assets\Scripts\Entity\TargetEntity.cs" />
      <Compile Include="Assets\Scripts\Message\CallBack.cs" />
      <Compile Include="Assets\Scripts\Message\EventCenter.cs" />
      <Compile Include="Assets\Scripts\Message\EventType.cs" />
@@ -393,14 +401,14 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>H:/Jacklovezzzzzzzzzzz/MyGit/MyGame/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="ExcelDataReader.DataSet">
  <HintPath>H:/Jacklovezzzzzzzzzzz/MyGit/MyGame/Assets/Plugins/Excel/ExcelDataReader.DataSet.dll</HintPath>
  </Reference>
  <Reference Include="ExcelDataReader">
  <HintPath>H:/Jacklovezzzzzzzzzzz/MyGit/MyGame/Assets/Plugins/Excel/ExcelDataReader.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>H:/Jacklovezzzzzzzzzzz/MyGit/MyGame/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

@@ -8,13 +8,23 @@ using UnityEngine;
 /// </summary>
 public abstract class BaseSystem : IInit,IStart,IUpdate,IFixUpdate,IDispose
 {
-    public abstract void OnInit(object obj = null);
+    protected BaseWorld baseWorld;
+
+    public virtual void OnInit(object obj = null)
+    {
+        baseWorld = (BaseWorld) obj;
+    }
 
     public abstract void OnStart(object obj = null);
 
     public abstract void OnUpdate(float deltaTime);
 
     public abstract void OnFixUpdate(float deltaTime);
+
+    public T GetSystem<T>() where T : BaseSystem
+    {
+        return baseWorld.GetSystem<T>();
+    }
 
     public abstract void OnDispose();
 }

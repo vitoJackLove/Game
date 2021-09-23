@@ -72,6 +72,9 @@
           </e>
         </e>
         <e p="GameFramework" t="Include">
+          <e p="BaseWorld" t="Include">
+            <e p="BaseWorld.cs" t="Include" />
+          </e>
           <e p="Component" t="Include">
             <e p="DataTableComponent.cs" t="Include" />
             <e p="GameFrameworkComponent.cs" t="Include" />
@@ -101,6 +104,8 @@
             </e>
             <e p="Entity" t="Include">
               <e p="BaseEntity.cs" t="Include" />
+              <e p="CommandEntityData.cs" t="Include" />
+              <e p="EntityConfigData.cs" t="Include" />
             </e>
             <e p="EntityView" t="Include">
               <e p="BaseEntityView.cs" t="Include" />
@@ -120,6 +125,9 @@
             <e p="GameEntryBase.cs" t="Include" />
           </e>
           <e p="GameFrameworkException.cs" t="Include" />
+          <e p="Interface" t="Include">
+            <e p="ILifeCity.cs" t="Include" />
+          </e>
           <e p="Utility" t="Include">
             <e p="AssetUtility.cs" t="Include" />
             <e p="FileHelp.cs" t="Include" />
@@ -621,14 +629,18 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="BaseWorld" t="Include">
-            <e p="BaseWorld.cs" t="Include" />
+          <e p="Component" t="Include">
+            <e p="EntityViewComponent.cs" t="Include" />
           </e>
           <e p="Constant" t="Include">
             <e p="Constant.cs" t="Include" />
           </e>
-          <e p="Interface" t="Include">
-            <e p="ILifeCity.cs" t="Include" />
+          <e p="Entity" t="Include">
+            <e p="BossEntity.cs" t="Include" />
+            <e p="HeroEntity.cs" t="Include" />
+            <e p="MinionEntity.cs" t="Include" />
+            <e p="MonsterEntity.cs" t="Include" />
+            <e p="TargetEntity.cs" t="Include" />
           </e>
           <e p="Message" t="Include">
             <e p="CallBack.cs" t="Include" />

@@ -329,14 +329,14 @@
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>H:/Unity2019.4.9/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>H:/Jacklovezzzzzzzzzzz/MyGit/MyGame/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="ExcelDataReader.DataSet">
  <HintPath>H:/Jacklovezzzzzzzzzzz/MyGit/MyGame/Assets/Plugins/Excel/ExcelDataReader.DataSet.dll</HintPath>
  </Reference>
  <Reference Include="ExcelDataReader">
  <HintPath>H:/Jacklovezzzzzzzzzzz/MyGit/MyGame/Assets/Plugins/Excel/ExcelDataReader.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>H:/Jacklovezzzzzzzzzzz/MyGit/MyGame/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>H:/Jacklovezzzzzzzzzzz/MyGit/MyGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

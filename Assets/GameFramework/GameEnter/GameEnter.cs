@@ -1,4 +1,5 @@
-﻿using Loxodon.Framework.Binding;
+﻿using System;
+using Loxodon.Framework.Binding;
 using Loxodon.Framework.Contexts;
 using Loxodon.Framework.Messaging;
 using Loxodon.Framework.Services;
@@ -39,6 +40,23 @@ public partial class GameEnter : MonoBehaviour
         world = new BaseWorld();
         
         world.InitWorld();
+
+        world.OnStart();
+    }
+
+    public void Update()
+    {
+        world.OnUpdate(Time.deltaTime);
+    }
+
+    public void FixedUpdate()
+    {
+        world.OnFixUpdate(Time.deltaTime);
+    }
+
+    public void OnDisable()
+    {
+        world.OnDispose();
     }
 
     private async void LoadGameStartWindow()
