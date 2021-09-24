@@ -40,7 +40,7 @@ namespace SuperScrollView
             SetStarCount(data.mStarCount);
         }
 
-        public void SetStarCount(int count)
+        public void SetStarCount(int count) 
         {
             mStarCount.text = count.ToString();
             if (count == 0)

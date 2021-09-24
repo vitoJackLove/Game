@@ -1,0 +1,5 @@
+﻿#	C	C	C	C	C	C	C	
+#	int	string	int	string	bool	int	string	
+#	Id	Name	Level	Describe	IsActive	Magic	IconPath	
+#	配置Id	名字	等级（0是高级，1是低级）	技能描述	是否是主动技能	消耗的法力值	技能图标路径	
+	1	高级重生	0	倒地时30%概率复活	false	0	1500	

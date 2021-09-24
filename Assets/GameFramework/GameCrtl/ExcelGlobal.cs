@@ -6,6 +6,8 @@ public static class ExcelGlobal
 {
      public static readonly string[] DataTableNames = new string[]
      {
-          "JacketData"
+          "JacketData",
+          "PetData",
+          "PetSkillData"
      };
 }

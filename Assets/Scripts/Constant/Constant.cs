@@ -23,9 +23,14 @@ public static partial class Constant
     {
         private const string Path = "Assets/ABResources";
 
-        public static string GetUiPrefab(string prefabPath)
+        public static string GetUiWindowPrefab(string prefabPath)
         {
-            return $"{Path}/UI/{prefabPath}.prefab";
+            return $"{Path}/UI/Window/{prefabPath}.prefab";
+        }
+
+        public static string GetSpirit(string spiritPath)
+        {
+            return $"{Path}/UI/Spirit/{spiritPath}.png";
         }
     }
 }

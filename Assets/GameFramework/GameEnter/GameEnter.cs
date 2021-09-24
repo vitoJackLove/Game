@@ -63,6 +63,6 @@ public partial class GameEnter : MonoBehaviour
     {
         await new PreloadDataCtrl().LoadData();
         
-        UI.OpenWindow<TestStartupWindow>(Constant.ResourcesPath.GetUiPrefab("Startup"));
+        UI.OpenWindow<TestStartupWindow>(Constant.ResourcesPath.GetUiWindowPrefab("Startup"));
     }
 }

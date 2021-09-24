@@ -15,6 +15,8 @@
           </e>
           <e p="DataTables" t="Include">
             <e p="JacketData.txt" t="Include" />
+            <e p="PetData.txt" t="Include" />
+            <e p="PetSkillData.txt" t="Include" />
           </e>
         </e>
         <e p="Editor" t="Include">
@@ -620,14 +622,6 @@
             </e>
           </e>
         </e>
-        <e p="Samples" t="Include">
-          <e p="Script" t="Include">
-            <e p="TestLoginViewModel.cs" t="Include" />
-            <e p="TestLoginWindow.cs" t="Include" />
-            <e p="TestStartupViewModel.cs" t="Include" />
-            <e p="TestStartupWindow.cs" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="Component" t="Include">
             <e p="EntityViewComponent.cs" t="Include" />
@@ -651,6 +645,8 @@
             <e p="DataTable" t="Include">
               <e p="DREnumType.cs" t="Include" />
               <e p="DRJacketData.cs" t="Include" />
+              <e p="DRPetData.cs" t="Include" />
+              <e p="DRPetSkillData.cs" t="Include" />
             </e>
           </e>
           <e p="system" t="Include">
@@ -669,6 +665,41 @@
             </e>
             <e p="Singleton.cs" t="Include" />
             <e p="XMLSerialization.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Commond" t="Include">
+              <e p="SpiritLoader.cs" t="Include" />
+            </e>
+            <e p="Login" t="Include">
+              <e p="TestLoginViewModel.cs" t="Include" />
+              <e p="TestLoginWindow.cs" t="Include" />
+              <e p="TestStartupViewModel.cs" t="Include" />
+              <e p="TestStartupWindow.cs" t="Include" />
+            </e>
+            <e p="Pet" t="Include">
+              <e p="PetConfigData.cs" t="Include" />
+              <e p="PetData.cs" t="Include" />
+              <e p="PetDataViewModel.cs" t="Include" />
+              <e p="PetDataWindow.cs" t="Include" />
+              <e p="PetItemViewModel.cs" t="Include" />
+              <e p="PetItemWindow.cs" t="Include" />
+            </e>
+            <e p="Role" t="Include">
+              <e p="RoleData.cs" t="Include" />
+              <e p="RoleViewModel.cs" t="Include" />
+            </e>
+            <e p="Skill" t="Include">
+              <e p="PetSkillData.cs" t="Include" />
+            </e>
+            <e p="StateRoom" t="Include">
+              <e p="StateRoomViewModel.cs" t="Include" />
+              <e p="StateRoomWindow.cs" t="Include" />
+            </e>
+            <e p="TargetProperty" t="Include">
+              <e p="PetPropertyData.cs" t="Include" />
+              <e p="PropertyData.cs" t="Include" />
+              <e p="RolePropertyData.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="SuperScrollView" t="Include">
@@ -771,6 +802,37 @@
               <e p="StaggeredGridItemPool.cs" t="Include" />
             </e>
             <e p="Version 2.4.0.txt" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>
