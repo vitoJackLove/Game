@@ -42,7 +42,7 @@ public class PetAptitudeWindow : MonoBehaviour
     {
         BindingSet<PetAptitudeWindow, SelectPetDataViewModel> bindingSet = this.CreateBindingSet(viewModel);
         
-        bindingSet.Bind(this.aptitudeLevelText).For(v => v.text).To("天资");
+        //bindingSet.Bind(this.aptitudeLevelText).For(v => v.text).To("天资");
         
         bindingSet.Bind(this.gradeText).For(v => v.text).ToExpression(vm=>$"绝品({vm.Data.PropertyData.AptitudeGrade})");
         

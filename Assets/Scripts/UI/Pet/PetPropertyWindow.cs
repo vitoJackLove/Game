@@ -53,7 +53,7 @@ public class PetPropertyWindow : MonoBehaviour
         bindingSet.Bind(this.hpdText).For(v => v.text).ToExpression(vm => $"{vm.Data.PropertyData.CurrentHp}/{vm.Data.PropertyData.HpMax}");
         
         bindingSet.Bind(this.magicText).For(v => v.text).ToExpression(vm => $"{vm.Data.PropertyData.CurrentMagic}/{vm.Data.PropertyData.MagicMax}");
-        
+
         bindingSet.Bind(this.wakanText).For(v => v.text).To(vm => vm.Data.PropertyData.Wakan);
         
         bindingSet.Bind(this.attackText).For(v => v.text).To(vm => vm.Data.PropertyData.Attack);

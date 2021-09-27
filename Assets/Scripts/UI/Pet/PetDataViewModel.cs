@@ -26,7 +26,9 @@ public class PetDataViewModel : ViewModelBase
     /// 选择的宠物ViewModel
     /// </summary>
     private SelectPetDataViewModel selectPetDataViewModel;
-    
+
+    public SelectPetDataViewModel SelectPetDataViewModel => selectPetDataViewModel;
+
     public PetDataViewModel(){}
     
     public PetDataViewModel(PetListData petListData)
@@ -34,6 +36,8 @@ public class PetDataViewModel : ViewModelBase
         this.petListData = petListData;
         
         selectPetDataViewModel = new SelectPetDataViewModel();
+
+        SetSelectPet(petListData.PetDataList?[0]);
         
         ShowPropertyPanel();
     }
@@ -43,6 +47,11 @@ public class PetDataViewModel : ViewModelBase
     /// </summary>
     public void SetSelectPet(PetData selectPetData)
     {
+        if (selectPetData == selectPet)
+        {
+            return;
+        }
+        
         this.selectPet = selectPetData;
         
         selectPetDataViewModel.RefreshSelectPet(selectPet);

@@ -42,6 +42,10 @@ public class PetDataWindow : Window
     /// 资质面板
     /// </summary>
     public GameObject aptitudePanel;
+
+    public PetPropertyWindow propertyWindow;
+
+    public PetAptitudeWindow aptitudeWindow;
     
     protected override void OnCreate(IBundle bundle)
     {
@@ -60,6 +64,10 @@ public class PetDataWindow : Window
         bindingSet.Build();
 
         loopGridView.InitGridView(viewModel.Data.PetDataList.Count, OnGetItemByRowColumn);
+
+        propertyWindow.Init(viewModel.SelectPetDataViewModel);
+        
+        aptitudeWindow.Init(viewModel.SelectPetDataViewModel);
     }
 
     LoopGridViewItem OnGetItemByRowColumn(LoopGridView gridView, int itemIndex, int row, int column)
