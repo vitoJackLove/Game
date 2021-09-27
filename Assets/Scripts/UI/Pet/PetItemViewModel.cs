@@ -12,13 +12,20 @@ public class PetItemViewModel : ViewModelBase
 
     public PetData Data => data;
 
-    public PetItemViewModel(PetData petData)
+    /// <summary>
+    /// 宠物信息总面板
+    /// </summary>
+    private PetDataViewModel petDataViewModel;
+
+    public PetItemViewModel(PetData petData, PetDataViewModel petDataViewModel)
     {
         data = petData;
+
+        this.petDataViewModel = petDataViewModel;
     }
 
     public void ShowPetBtn()
     {
-        
+        petDataViewModel.SetSelectPet(Data);
     }
 }

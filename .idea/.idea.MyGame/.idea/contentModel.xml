@@ -677,12 +677,15 @@
               <e p="TestStartupWindow.cs" t="Include" />
             </e>
             <e p="Pet" t="Include">
-              <e p="PetConfigData.cs" t="Include" />
-              <e p="PetData.cs" t="Include" />
+              <e p="PetAptitudeWindow.cs" t="Include" />
+              <e p="PetConfigDatamODEL.cs" t="Include" />
+              <e p="PetDataModel.cs" t="Include" />
               <e p="PetDataViewModel.cs" t="Include" />
               <e p="PetDataWindow.cs" t="Include" />
               <e p="PetItemViewModel.cs" t="Include" />
               <e p="PetItemWindow.cs" t="Include" />
+              <e p="PetPropertyWindow.cs" t="Include" />
+              <e p="SelectPetDataViewModel.cs" t="Include" />
             </e>
             <e p="Role" t="Include">
               <e p="RoleData.cs" t="Include" />

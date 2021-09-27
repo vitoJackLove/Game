@@ -53,11 +53,11 @@ public class Progress : ModelBase
     private float progress;
     private string tip;
     private bool enable;
-
-    public bool Enable {
+ public bool Enable {
         get => this.enable;
         set => this.Set<bool> (ref this.enable, value, "Enable");
     }
+   
 
     public float Progressbar {
         get => this.progress;

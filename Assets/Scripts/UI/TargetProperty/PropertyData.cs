@@ -174,6 +174,42 @@ public class PropertyData : ModelBase
         set => this.Set<int>(ref this.grade, value, "Grade");
     }
     
+    public int ExperienceMax
+    {
+        get => this.experienceMax;
+        set => this.Set<int>(ref this.experienceMax, value, "ExperienceMax");
+    }
+    
+    public int CurrentExperience
+    {
+        get => this.currentExperience;
+        set => this.Set<int>(ref this.currentExperience, value, "CurrentExperience");
+    }
+    
+    public int HpMax
+    {
+        get => this.hpMax;
+        set => this.Set<int>(ref this.hpMax, value, "HpMax");
+    }
+    
+    public int CurrentHp
+    {
+        get => this.currentHp;
+        set => this.Set<int>(ref this.currentHp, value, "CurrentHp");
+    }
+    
+    public int MagicMax
+    {
+        get => this.magicMax;
+        set => this.Set<int>(ref this.magicMax, value, "MagicMax");
+    }
+    
+    public int CurrentMagic
+    {
+        get => this.currentMagic;
+        set => this.Set<int>(ref this.currentMagic, value, "CurrentMagic");
+    }
+    
     public string Name
     {
         get => this.name;

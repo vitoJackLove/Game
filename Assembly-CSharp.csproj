@@ -127,12 +127,15 @@
      <Compile Include="Assets\Scripts\UI\Login\TestLoginWindow.cs" />
      <Compile Include="Assets\Scripts\UI\Login\TestStartupViewModel.cs" />
      <Compile Include="Assets\Scripts\UI\Login\TestStartupWindow.cs" />
-     <Compile Include="Assets\Scripts\UI\Pet\PetConfigData.cs" />
-     <Compile Include="Assets\Scripts\UI\Pet\PetData.cs" />
+     <Compile Include="Assets\Scripts\UI\Pet\PetAptitudeWindow.cs" />
+     <Compile Include="Assets\Scripts\UI\Pet\PetConfigDataModel.cs" />
+     <Compile Include="Assets\Scripts\UI\Pet\PetDataModel.cs" />
      <Compile Include="Assets\Scripts\UI\Pet\PetDataViewModel.cs" />
      <Compile Include="Assets\Scripts\UI\Pet\PetDataWindow.cs" />
      <Compile Include="Assets\Scripts\UI\Pet\PetItemViewModel.cs" />
      <Compile Include="Assets\Scripts\UI\Pet\PetItemWindow.cs" />
+     <Compile Include="Assets\Scripts\UI\Pet\PetPropertyWindow.cs" />
+     <Compile Include="Assets\Scripts\UI\Pet\SelectPetDataViewModel.cs" />
      <Compile Include="Assets\Scripts\UI\Role\RoleData.cs" />
      <Compile Include="Assets\Scripts\UI\Role\RoleViewModel.cs" />
      <Compile Include="Assets\Scripts\UI\Skill\PetSkillData.cs" />
