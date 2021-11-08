@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 /// <summary>
 /// 宠物属性
@@ -51,6 +53,8 @@ public class PetPropertyData : PropertyData
     {
         this.Level = level;
 
+        InitRandomPetAptitude(data);
+
         AttackPercent = (aptitudeAttack - data.ConfigData.AttackMin) * data.ConfigData.AttackPercent;
         
         DefensePercent = (aptitudeAttackDefense - data.ConfigData.DefenseMin) * data.ConfigData.DefensePercent;
@@ -60,6 +64,27 @@ public class PetPropertyData : PropertyData
         WakanPercent = (aptitudeWakan - data.ConfigData.WakanMin) * data.ConfigData.WakanPercent;
         
         SpeedPercent = (aptitudeSpeed - data.ConfigData.SpeedMin) * data.ConfigData.SpeedPercent;
+    }
+
+    private void InitRandomPetAptitude(PetData data)
+    {
+        //初始化随机 属性
+        AptitudeAttack = Random.Range(data.ConfigData.AttackMin, data.ConfigData.AttackMax);
+        
+        AptitudeWakan = Random.Range(data.ConfigData.WakanMin
+            , data.ConfigData.WakanMax);
+        
+        AptitudeHp = Random.Range(data.ConfigData.HPMin
+            , data.ConfigData.HPMax);
+        
+        AptitudeSpeed = Random.Range(data.ConfigData.SpeedMin
+            , data.ConfigData.SpeedMax);
+        
+        AptitudeGrow = Random.Range(data.ConfigData.GrowMin
+            , data.ConfigData.GrowMax);
+        
+        AptitudeAttackDefense = Random.Range(data.ConfigData.DefenseMin
+            , data.ConfigData.DefenseMax);
     }
 
     public bool IsBattle {

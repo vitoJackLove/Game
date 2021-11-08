@@ -74,13 +74,13 @@ public class PetConfigData : ModelBase
 
         attackPercent = (float)1.0f / ((float)AttackMax - (float)attackMin);
 
-        defensePercent = 1 / (DefenseMax - DefenseMin);
+        defensePercent = 1.0f / (DefenseMax - DefenseMin);
 
-        hpPercent = 1 / (HPMax - HPMin);
+        hpPercent = 1.0f / (HPMax - HPMin);
 
-        wakanPercent = 1 / (WakanMax - WakanMin);
+        wakanPercent = 1.0f / (WakanMax - WakanMin);
 
-        speedPercent = 1 / (SpeedMax - SpeedMin);
+        speedPercent = 1.0f / (SpeedMax - SpeedMin);
     }
 
     public string Name

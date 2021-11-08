@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Loxodon.Framework.Interactivity;
 using Loxodon.Framework.ViewModels;
 using UnityEngine;
 
@@ -11,9 +12,7 @@ public class PetDataViewModel : ViewModelBase
     /// <summary>
     /// 玩家所有的宠物信息
     /// </summary>
-    private PetListData petListData;
-
-    public PetListData Data => petListData;
+    public PetListData Data { get; }
 
     private bool isShowPetPropertyPanel;
 
@@ -28,14 +27,28 @@ public class PetDataViewModel : ViewModelBase
     private SelectPetDataViewModel selectPetDataViewModel;
 
     public SelectPetDataViewModel SelectPetDataViewModel => selectPetDataViewModel;
+    
+    /// <summary>
+    /// 展示宠物洗练面板
+    /// </summary>
+    private InteractionRequest showPetWashRequest;
+
+    /// <summary>
+    /// 展示宠物学习面板
+    /// </summary>
+    private InteractionRequest showPetStudyRequest;
 
     public PetDataViewModel(){}
     
     public PetDataViewModel(PetListData petListData)
     {
-        this.petListData = petListData;
+        this.Data = petListData;
         
         selectPetDataViewModel = new SelectPetDataViewModel();
+
+        showPetWashRequest = new InteractionRequest();
+
+        showPetStudyRequest = new InteractionRequest();
 
         SetSelectPet(petListData.PetDataList?[0]);
         
@@ -66,9 +79,29 @@ public class PetDataViewModel : ViewModelBase
     {
         IsShowPetPropertyPanel = false;
     }
+
+    /// <summary>
+    /// 展示宝宝洗髓面板
+    /// </summary>
+    public void ShowPetWashPanel()
+    {
+        showPetWashRequest.Raise();
+    }
+
+    /// <summary>
+    /// 展示宝宝学习面板
+    /// </summary>
+    public void ShowPetStudyPanel()
+    {
+        showPetStudyRequest.Raise();
+    }
     
     public bool IsShowPetPropertyPanel {
         get => this.isShowPetPropertyPanel;
         set => this.Set<bool> (ref this.isShowPetPropertyPanel, value, "IsShowPetPropertyPanel");
-    } 
+    }
+
+    public IInteractionRequest ShowPetStudyRequest => showPetStudyRequest;
+
+    public IInteractionRequest ShowPetWashRequest => showPetWashRequest;
 }
